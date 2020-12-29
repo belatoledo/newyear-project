@@ -7,10 +7,10 @@ body {
 }
 
 #landing-page {
-    background: url("/images/bg3.jpg") no-repeat;
-    background-size: 100% 86rem;
+    background: url("/images/bg4.jpg") no-repeat;
+    background-size: 100% 85rem;
+    width: min(90%, 112rem) max(100%, 120rem);
     height: 100vh;
-    width: 100vw;
 }
 
 h2 {
