@@ -7,13 +7,25 @@ body {
 }
 
 #landing-page {
-    background: url("/images/bg.jpg") repeat;
+    background: url("/images/bg3.jpg") no-repeat;
+    background-size: 100% 86rem;
     height: 100vh;
     width: 100vw;
 }
 
+h2 {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    color: #f5f2ea;
+    text-align: center;
+}
+
 .countdown {
-    margin: 350px auto 0;
+    margin: 100px auto 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
     justify-content: center;
@@ -27,69 +39,64 @@ body {
     font-weight: 500;
     font-size: 3rem;
     padding: 1rem;
-    color: #06682f;
-    background: #d33b3b;
+    color: #33436c;
+    background: #f3f0f0c7;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .countdown li span {
-    color: aliceblue;
-    background: #d33b3b;
+    color: #cf9b0c;
     text-align: center;
     font-family: 'Nova Flat', cursive;
     font-size: 10rem;
 }
 
 h1 {
-    margin-top: 100px;
-    padding: 10px;
+    margin-top: 260px;
     font-family: 'Satisfy', cursive;
     font-weight: 400;
-    font-size: 3rem;
-    color: white;
-    background-color: #0b813c;
+    font-size: 8rem;
+    color: transparent;
     text-align: center;
-    border: 10px dotted #d33b3b;
-    animation: candy 2s linear infinite;
+    animation: colored 5s linear infinite;
 }
 
-@keyframes candy {
+@keyframes colored {
     0%
     {
-        border: 10px dotted #d33b3b;
+        color: rgba(207, 155, 12, 0.808);
         filter: blur(1px);
     }
     20%
     {
-        border: 10px dotted rgb(2, 97, 134);
+        color:  rgba(235, 230, 242, 0.76);
         filter: blur(1px);
     }
 
     40% 
     {
-        border: 10px dotted white;
+        color: rgba(164, 135, 163, 0.699);
         filter: blur(1px);
     }
 
     60% 
     {
-        border: 10px dotted rgb(197, 22, 110);
+        color: rgba(207, 155, 12, 0.514);
         filter: blur(1px);
     }
 
     80% 
     {
-        border: 10px dotted rgba(228, 228, 50, 0.938);
+        color:  rgba(251, 189, 156, 0.664);
         filter: blur(1px);
     }
-
-    100% 
+    100%
     {
-        border: 10px dotted rgb(0, 143, 0);
+        color: rgba(207, 155, 12, 0.205);
         filter: blur(1px);
     }
-
+  
 }
 
